@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+  <BigRIPSIC>
+    <ID>1</ID>
+    <NAME>F7IC</NAME>
+    <FPL>7</FPL>
+    <detectorid>4</detectorid>
+    <geo0>0</geo0>
+    <ch0>0</ch0>
+    <geo1>0</geo1>
+    <ch1>1</ch1>
+    <geo2>0</geo2>
+    <ch2>2</ch2>
+    <geo3>0</geo3>
+    <ch3>3</ch3>
+    <geo4>0</geo4>
+    <ch4>4</ch4>
+    <geo5>0</geo5>
+    <ch5>5</ch5>
+    <geo6>0</geo6>
+    <ch6>6</ch6>
+    <geo7>0</geo7>
+    <ch7>7</ch7>
+    <geo8>0</geo8>
+    <ch8>8</ch8>
+    <geo9>0</geo9>
+    <ch9>9</ch9>
+    <geo10>0</geo10>
+    <ch10>10</ch10>
+    <geo11>0</geo11>
+    <ch11>11</ch11>
+  </BigRIPSIC>
+</dataroot>

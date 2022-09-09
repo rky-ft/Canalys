@@ -1,0 +1,22 @@
+// zdeg parameters
+// d0 : degrader thickness at center in mm
+// ang : wedge angle of degrader in mrad
+// zpos : z position of degrader from focalplane
+// In case of no deg, use d0 = 0., ang = 0.
+// Degrader run# run# d0 ang zpos
+
+Degrader   1   10000   0.   0.   -170
+
+
+// ZTemp = beta1 * beta1 * ( brho1 / beta1 - brho2 / beta2 ) / thickness
+// ZCoef[0] + ZCoef[1] * ZTemp + ZCoef[2] * ZTemp^2
+// ZCoef run# run# ZCoef[0] ZCoef[1]
+
+ZCoef   1   10000   0.   1.   0.
+
+
+// brho ( for full strip ) = brho * QoZ
+// Q1oZ is for first half, Q2oZ for second half.
+// QOZ  run# run#  Q1oZ  Q2oZ
+
+QOZ   1   10000   1.   1.

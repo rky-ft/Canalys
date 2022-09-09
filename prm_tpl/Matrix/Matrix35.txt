@@ -1,0 +1,7 @@
+// run# run# matrix_file ( F3 -> F5 )
+
+199   203   Matrix/BigRIPS/F3F5_345AMeV-237Np.mat
+1199   1199   Matrix/BigRIPS/F3F5_345AMeV-237Np.mat
+
+283   287   Matrix/BigRIPS/F3F5_250AMeV-237Np.mat
+338   340   Matrix/BigRIPS/F3F5_150AMeV-237Np.mat

@@ -1,0 +1,22 @@
+// IC parameters
+// pedestals from 1 to 6 ch used for geometrical average
+// Pedestal run# run# ped[0] ... ped[5]
+
+Pedestal   1   10000   0.   0.   0.   0.   0.   0.
+
+
+// ch to MeV for energy loss in each layer, a0[*](MeV) a1[*](MeV/ch)
+// Ch2MeV run# run# a0[0] a1[0] ...... a0[5] a1[5]
+
+Ch2MeV   1   10000   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.
+
+// de_v = Log ( ionpair * beta^2 ) - Log ( ( 1 - beta^2 ) ) - beta^2;
+// Zed = ZCoef[0] + ZCoef[1] * Sqrt ( deltaE / de_v ) * beta;
+// ZCoef run# run# ionpair ZCoef[0] ZCoef[1]
+
+ICEnv   1   10000   660   0.45796531   0.001275 // Ar(90%)+CH4(10%)
+
+ICLayer   1   10000   6
+BetaCorr   1   10000   0.
+
+ZCoef   1   10000   4866.   0.   1.   0.

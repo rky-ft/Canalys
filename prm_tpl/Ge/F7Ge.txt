@@ -1,0 +1,9 @@
+//Ge parameters
+//time offset for each crystal
+//offset run# run# offset[0] .... offset[7]
+Offset   1   10000   0.   0.   0.   0.   0.   0.   0.   0.
+
+// Energy calibration  (MeV to MeV)
+// Enew = c[0] + c[1]*Eold,
+//Ecal run# run# c[0] c[1](for #1) ...  c[0] c[1] (for #7)
+Ecal   1   10000   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.   0.   1.

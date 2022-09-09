@@ -1,0 +1,21 @@
+// List of TSum gate, min and max values
+// TSumX run# run# 1A:X 1B:X 2A:X 2B:X
+
+TSumX   1   10000   -9999   9999   -9999   9999   -9999   9999   -9999   9999
+
+
+// TSumY run# run# 1A:Y 1B:Y 2A:Y 2B:Y
+
+TSumY   1   10000   -9999   9999   -9999   9999   -9999   9999   -9999   9999
+
+
+// offset (ns) of Anode Timing to make the mean value of all anodes mean value
+// is stored as F11PPAC_TM
+// TAoffset run# run# 1A 1B 2A 2B
+
+Offset   1   10000   0.   0.   0.   0.
+
+
+// zshift (mm) for focal plane
+
+ZShift   1   10000   0.

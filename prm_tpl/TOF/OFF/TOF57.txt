@@ -1,0 +1,19 @@
+// Parameter file of TOF57 ( F7Pla - F5Pla ) using Leading Edge Disc for timing
+// tof offset (ns)
+// Offset run# run# offset
+
+Offset   1   10000   150.0
+
+
+// slewing correction: slew_factor[i] * pow ( Q - pedestal[i], slew_pow[i] )
+// factor of slewing correction, start(F5):L, :R, stop(F7):L, :R
+// slew_factor run# run# startL startR stopL stopR
+
+Slew_factor   1   10000   0.   0.   0.   0.
+
+
+// power of slewing correction, start(F5):L, :R, stop(F7):L, :R
+// -0.5 means sqrt
+// slew_pow run# run# startL startR stopL stopR
+
+Slew_pow   1   10000   -0.5   -0.5   -0.5   -0.5

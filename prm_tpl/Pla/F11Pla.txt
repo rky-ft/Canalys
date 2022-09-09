@@ -1,0 +1,15 @@
+
+Pedestal   1   10000   0.   0.
+
+
+// dE = ch2MeV[0] + ch2MeV[1] * PlaQA + ch2MeV[2] * PlaQA^2
+// Ch2MeV run# run# ch2MeV[0] ch2MeV[1] ch2MeV[2]
+
+Ch2MeV   1   10000   0.   1.   0.
+
+
+// de_v = Log ( ionpair * beta^2) - Log ( ( 1 - beta^2 ) ) - beta^2;
+// Zed = ZCoef[0] + ZCoef[1] * Sqrt ( deltaE / de_v ) * beta;
+// ZCoef run# run# ionpair zcoef[0] zcoef[1]
+
+ZCoef   1   10000   15796.   0.   1. // I(Pla) = 64.7 eV

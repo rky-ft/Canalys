@@ -1,0 +1,25 @@
+// List of TSum gate, min and max values
+// TSumX run# run# 1A:X 1B:X 2A:X 2B:X
+
+TSumX   199   203   156.725   161.096   194.695   199.426   58.559   62.551   57.320   62.337
+TSumX   284   287   157.773   162.065   195.662   200.211   56.537   60.551   58.755   63.521
+TSumX   338   340   155.478   163.591   191.697   200.815   55.333   63.320   55.699   65.181
+//TSumX   1   10000   -9999   9999   -9999   9999   -9999   9999   -9999   9999
+
+// TSumY run# run# 1A:Y 1B:Y 2A:Y 2B:Y
+
+TSumY   199   203   80.801   85.050   100.499   104.522   69.657   73.409   74.241   78.342
+TSumY   284   287   81.587   86.091   101.125   104.936   67.450   71.605   75.239   79.489
+TSumY   338   340   79.393   87.340   97.563   104.915   66.114   73.912   72.350   79.768
+//TSumY   1   10000   -9999   9999   -9999   9999   -9999   9999   -9999   9999
+
+// offset (ns) of Anode Timing to make the mean value of all anodes mean value
+// is stored as F7PPAC_TM
+// TAoffset run# run# 1A 1B 2A 2B
+
+Offset   1   10000   0.   0.   0.   0.
+
+
+// zshift (mm) for focal plane
+
+ZShift   1   10000   0.

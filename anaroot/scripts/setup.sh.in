@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source @ROOTSYS@/bin/thisroot.sh
+export TARTSYS=@CMAKE_INSTALL_PREFIX@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$TARTSYS/lib@MINOSFEMLIB@

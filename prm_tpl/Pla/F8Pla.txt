@@ -1,0 +1,8 @@
+
+Pedestal   1   10000   0.   0.
+
+
+// dE = ch2MeV[0] + ch2MeV[1] * PlaQA + ch2MeV[2] * PlaQA^2
+// Ch2MeV run# run# ch2MeV[0] ch2MeV[1] ch2MeV[2]
+
+Ch2MeV   1   10000   0.   1.   0.
